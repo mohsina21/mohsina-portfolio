@@ -1,0 +1,14 @@
+@import url('https://fonts.cdnfonts.com/css/kitty');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'HelloKitty';
+  src: url('likely-kitty.woff') format('woff2'),
+       url('likely-kitty.woff') format('woff');
+}
+
+body {
+  font-family: 'likely-Kitty', cursive;
+}
