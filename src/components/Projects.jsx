@@ -21,7 +21,7 @@ const Projects = () => {
       
 
       
-      <h1 className="text-5xl font-bold text-white mb-12 text-center drop-shadow-lg">
+      <h1 className="text-5xl  text-white mb-12 text-center drop-shadow-lg">
          My  Projects
       </h1>
 
