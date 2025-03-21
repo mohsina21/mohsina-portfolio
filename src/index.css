@@ -4,7 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Ensure custom font is correctly loaded */
+
 @font-face {
   font-family: 'Likely Kitty';
   src: url('/fonts/likely-kitty.woff2') format('woff2'),
@@ -13,10 +13,10 @@
 }
 
 body {
-  font-family: 'Likely Kitty', cursive;
+  font-family: 'Likely Kitty';
   background: linear-gradient(to bottom right, #fbcfe8, #f472b6);
-  overflow-x: hidden;  /* Prevent horizontal scroll */
-  overflow-y: auto;    /* Ensure vertical scrolling */
+  overflow-x: hidden;  
+  overflow-y: auto;   
   min-height: 100vh;
   width: 100vw;
   display: flex;
@@ -25,9 +25,9 @@ body {
   align-items: center;
 }
 
-/* Floating hearts effect - spans entire page */
+
 .floating-hearts {
-  position: fixed; /* Fixed to keep it throughout scrolling */
+  position: fixed; 
   top: 0;
   left: 0;
   width: 100vw;
@@ -36,10 +36,9 @@ body {
   z-index: -1;
 }
 
-/* Mobile Optimization */
 @media (max-width: 768px) {
   body {
-    font-size: 14px; /* Adjust font size for smaller screens */
+    font-size: 14px;
     text-align: center;
     padding: 10px;
   }
