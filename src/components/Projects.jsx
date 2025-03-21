@@ -4,12 +4,12 @@ import Tilt from "react-parallax-tilt";
 
 const projects = [
   {
-    img: "/img/potterPedia.png",
+    img: "/Harry-1.png",
     title: "PotterPedia",
     desc: "A magical encyclopedia for Harry Potter fans! Explore detailed information about characters, houses, and the wizarding world.",
   },
   {
-    img: "/img/FashionGuide.png",
+    img: "/Fashion.png",
     title: "FashionGuide",
     desc: "Your ultimate style companion! Discover the latest fashion trends, styling tips, and outfit inspirations.",
   },
