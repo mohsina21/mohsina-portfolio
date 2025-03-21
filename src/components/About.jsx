@@ -10,15 +10,15 @@ const About = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-pink-300 to-pink-500 relative text-white text-center overflow-x-hidden">
-      {/* Glossy Effect */}
+    <div className="min-h-screen flex flex-col items-center justify-center  relative text-white text-center overflow-x-hidden">
+     
       <div className="absolute inset-0 bg-white opacity-10 rounded-full blur-3xl"></div>
       <div className="absolute inset-0 bg-white opacity-5 rounded-full blur-2xl"></div>
       <div className="absolute inset-0 bg-white opacity-20 rounded-full blur-[120px]"></div>
       <h2 className="text-4xl font-bold font-body text-white drop-shadow-lg p-5">About Me</h2>
-      {/* About Content Box */}
-      <div className="relative z-10 p-6 bg-white/20 backdrop-blur-md rounded-2xl shadow-lg border border-white/30 max-w-3xl transition-transform transform hover:scale-105 flex items-center space-x-10">
-        {/* Interactive Cat Next to Content */}
+
+      <div className="relative z-10 p-6 bg-pink-400 backdrop-blur-md rounded-2xl shadow-lg border border-pink-500/40 max-w-3xl transition-transform transform hover:scale-105 hover:border-white hover:shadow-white/50 flex items-center space-x-10">
+
         <div className="cursor-pointer" onClick={changeMood}>
           <Cat size={250} mood={mood} color="#ffbae1" />
         </div>

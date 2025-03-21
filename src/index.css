@@ -9,6 +9,24 @@
        url('likely-kitty.woff') format('woff');
 }
 
-body {
-  font-family: 'likely-Kitty', cursive;
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-family: 'HelloKitty', cursive;
+  background-image: linear-gradient(to bottom right, #fbcfe8, #f472b6);
+}
+
+#root {
+  position: relative;
+  min-height: 100vh;
+}
+
+.floating-hearts {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  pointer-events: none;
 }
