@@ -17,7 +17,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center px-6 py-16  relative overflow-x-hidden bg-fixed">
+    <div className="min-h-screen flex flex-col items-center justify-center px-6 py-16  relative overflow-x-hidden">
       
 
       

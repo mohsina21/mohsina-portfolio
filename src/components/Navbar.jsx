@@ -1,13 +1,11 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-import clsx from "clsx"; // Ensure clsx is installed or replace with Tailwind classes
+import clsx from "clsx";
 
 const Navbar = ({ scrollToSection, refs }) => {
   const [isAudioPlaying, setIsAudioPlaying] = useState(false);
   const [isIndicatorActive, setIsIndicatorActive] = useState(false);
   const audioElementRef = useRef(null);
-
-  // Function to toggle audio play/pause
   const toggleAudioIndicator = () => {
     setIsAudioPlaying((prev) => !prev);
     setIsIndicatorActive((prev) => !prev);
@@ -46,7 +44,6 @@ const Navbar = ({ scrollToSection, refs }) => {
         </motion.button>
       ))}
 
-      {/* Music Toggle Button */}
       <button
         onClick={toggleAudioIndicator}
         className="ml-10 flex items-center space-x-0.5"
@@ -54,7 +51,7 @@ const Navbar = ({ scrollToSection, refs }) => {
         <audio
           ref={audioElementRef}
           className="hidden"
-          src="/public/audio-1.mp3"
+          src="/audio-1.mp3"
           loop
         />
         {[1, 2, 3, 4].map((bar) => (
