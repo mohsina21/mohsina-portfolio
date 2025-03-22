@@ -20,7 +20,7 @@ const About = () => {
 
       <div className="relative z-10 p-6 bg-pink-400 backdrop-blur-md rounded-2xl shadow-lg border border-pink-500/40 max-w-3xl transition-transform transform hover:scale-105 hover:border-white hover:shadow-white/50 flex flex-col sm:flex-row items-center space-y-6 sm:space-y-0 sm:space-x-10">
    
-        <div className="cursor-pointer" onClick={changeMood}>
+        <div className="cursor-pointer" onMouseOver={changeMood}>
           <Cat size={200} mood={mood} color="#ffbae1" />
         </div>
         

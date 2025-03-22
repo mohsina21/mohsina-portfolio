@@ -1,16 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'yeasty-flavors';
-  src: url('/font-2.ttf') format('truetype');
-  font-weight: lighter;
-  font-style: normal;
-}
+
 
 body {
-  font-family: 'yeasty-flavors', sans-serif;
+  font-family: 'Dancing Script', sans-serif;
   background: linear-gradient(to bottom right, #fbcfe8, #f472b6);
   overflow-x: hidden;  
   overflow-y: auto;   
