@@ -48,7 +48,7 @@ const Contact = () => {
                 href={item.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-4 flex items-center justify-center border-2 text-white border-white rounded-lg transition-transform transform hover:scale-110 hover:bg-pink-500 hover:text-white bg-white/10 backdrop-blur-md shadow-lg"
+                className="p-4 flex items-center justify-center border-2 text-pink border-white rounded-lg transition-transform transform  hover:scale-125 hover:bg-white hover:text-pink-500 bg-white backdrop-blur-md shadow-lg"
               >
                 {item.icon}
               </a>

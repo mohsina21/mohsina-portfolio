@@ -6,19 +6,19 @@ const socialMedia = [
   {
     id: 1,
     name: "GitHub",
-    icon: <FaGithub size={30} />, 
+    icon: <FaGithub size={25} />, 
     url: "https://github.com/mohsina21",
   },
   {
     id: 2,
     name: "Twitter",
-    icon: <FaXTwitter size={30} />, 
+    icon: <FaXTwitter size={25} />, 
     url: "https://twitter.com/notmohsina",
   },
   {
     id: 3,
     name: "LinkedIn",
-    icon: <FaLinkedin size={30} />, 
+    icon: <FaLinkedin size={25} />, 
     url: "https://www.linkedin.com/in/mohsina-parveen-577367203/",
   },
 ];
