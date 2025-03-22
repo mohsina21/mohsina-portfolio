@@ -25,7 +25,7 @@ const TechStack = () => {
   };
 
   return (
-    <section className="w-full min-h-screen flex flex-col items-center justify-center relative text-white text-center overflow-x-hidden p-4 mt-3">
+    <section className="w-full min-h-screen flex flex-col items-center justify-center relative text-white text-center overflow-x-hidden p-4 mt-0">
       
       <h1 className="text-6xl font-bold relative z-10 mb-10 hidden sm:block">TECH <span className="text-white-400">STACK</span></h1>
       <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} glareEnable={true} glareMaxOpacity={0.3} className=" flex justify-center">

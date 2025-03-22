@@ -34,7 +34,7 @@ const Contact = () => {
     <div className="min-h-screen flex flex-col md:flex-row items-center justify-center gap-10 p-6 text-white-900 relative">
      
       <div className="p-6 bg-white/10 backdrop-blur-md rounded-lg border border-white/20 shadow-lg flex flex-col items-center w-full max-w-xs">
-        <h3 className="text-lg font-semibold mb-4">Connect with me</h3>
+        <h3 className="text-lg font-semibold mb-4 text-white">Connect with me</h3>
         <div className="grid grid-cols-2 gap-4">
           {socialMedia.map((item) => (
             <Tilt
@@ -48,7 +48,7 @@ const Contact = () => {
                 href={item.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-4 flex items-center justify-center border-2 border-white rounded-lg transition-transform transform hover:scale-110 hover:bg-pink-500 hover:text-white bg-white/10 backdrop-blur-md shadow-lg"
+                className="p-4 flex items-center justify-center border-2 text-white border-white rounded-lg transition-transform transform hover:scale-110 hover:bg-pink-500 hover:text-white bg-white/10 backdrop-blur-md shadow-lg"
               >
                 {item.icon}
               </a>
@@ -69,7 +69,7 @@ const Contact = () => {
       </div>
 
   
-      <footer className="absolute bottom-4 text-white-600 text-sm text-center w-full">
+      <footer className="absolute bottom-4 text-white text-sm text-center w-full">
         © 2025 Mohsina Parveen. All rights reserved.
       </footer>
     </div>
