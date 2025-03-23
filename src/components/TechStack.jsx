@@ -28,9 +28,9 @@ const TechStack = () => {
     <section className="w-full min-h-screen flex flex-col items-center justify-center relative text-white text-center overflow-x-hidden p-4 mt-0">
       
       <h1 className="text-6xl font-bold relative z-10 mb-10 hidden sm:block">TECH <span className="text-white-400">STACK</span></h1>
-      <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} glareEnable={true} glareMaxOpacity={0.3} className=" flex justify-center">
-        <div className="relative z-10 p-6 bg-pink-400 backdrop-blur-md rounded-2xl shadow-lg border border-pink-400/40 max-w-4xl transition-transform transform hover:scale-105 hover:border-white hover:shadow-white/50 flex flex-col sm:flex-row items-center space-y-6 sm:space-y-0 sm:space-x-10 justify-center">
-          <div className="cursor-pointer" onMouseOver={changeMood}>
+      <Tilt tiltMaxAngleX={6} tiltMaxAngleY={6} glareEnable={true} glareMaxOpacity={0.1} className=" flex justify-center">
+        <div className="relative z-10 p-6 bg-pink-400 backdrop-blur-md rounded-2xl shadow-lg border border-pink-400/40 max-w-4xl transition-transform transform hover:scale-105 hover:border-white hover:shadow-white/50 flex flex-col sm:flex-row items-center space-y-6 sm:space-y-0 sm:space-x-10 justify-center" onMouseOver={changeMood}>
+          <div className="cursor-pointer" >
             <Browser size={200} mood={mood} color="#ffbae1" />
           </div>
           <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-6 sm:gap-8 justify-center items-center">
