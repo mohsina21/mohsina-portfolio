@@ -15,6 +15,14 @@ const projects = [
     desc: "Your ultimate style companion! Discover the latest fashion trends, styling tips, and outfit inspirations.",
     url: 'https://fashion-guide.vercel.app/'
   },
+  {
+   
+      img: "/ShelfMate.png",
+      title: "ShelfMate",
+      desc: "Shelfmate is a web app that provides personalized book recommendations based on your preferences and interests.",
+      url: "https://shelf-mate-ten.vercel.app/"
+     
+  },
 ];
 
 const Projects = () => {
